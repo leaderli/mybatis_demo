@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="io.leaderli.mybatis.demo.CityMapperTest" time="0.195" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\work\workspace\idea\mybatis_demo\target\test-classes;D:\work\workspace\idea\mybatis_demo\target\classes;D:\resource\java\maven\repository\org\mybatis\mybatis\3.5.2\mybatis-3.5.2.jar;D:\resource\java\maven\repository\io\leaderli\litool\litool-core\2.3.1\litool-core-2.3.1.jar;D:\resource\java\maven\repository\io\leaderli\litool\litool-test\2.3.1\litool-test-2.3.1.jar;D:\resource\java\maven\repository\org\javassist\javassist\3.25.0-GA\javassist-3.25.0-GA.jar;D:\resource\java\maven\repository\net\bytebuddy\byte-buddy\1.12.16\byte-buddy-1.12.16.jar;D:\resource\java\maven\repository\net\bytebuddy\byte-buddy-agent\1.12.16\byte-buddy-agent-1.12.16.jar;D:\resource\java\maven\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;D:\resource\java\maven\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;D:\resource\java\maven\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;D:\resource\java\maven\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;D:\resource\java\maven\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;D:\resource\java\maven\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;D:\resource\java\maven\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;D:\resource\java\maven\repository\org\junit-pioneer\junit-pioneer\1.5.0\junit-pioneer-1.5.0.jar;D:\resource\java\maven\repository\org\junit\platform\junit-platform-launcher\1.7.2\junit-platform-launcher-1.7.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="D:\ProgramFiles\Java\jdk1.8.0_281\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\pc\AppData\Local\Temp\surefire7771720277532636247\surefirebooter7650905831843396682.jar C:\Users\pc\AppData\Local\Temp\surefire7771720277532636247 2024-03-07T21-03-04_677-jvmRun1 surefire3738274408112279195tmp surefire_0476662959711174939tmp"/>
+    <property name="surefire.test.class.path" value="D:\work\workspace\idea\mybatis_demo\target\test-classes;D:\work\workspace\idea\mybatis_demo\target\classes;D:\resource\java\maven\repository\org\mybatis\mybatis\3.5.2\mybatis-3.5.2.jar;D:\resource\java\maven\repository\io\leaderli\litool\litool-core\2.3.1\litool-core-2.3.1.jar;D:\resource\java\maven\repository\io\leaderli\litool\litool-test\2.3.1\litool-test-2.3.1.jar;D:\resource\java\maven\repository\org\javassist\javassist\3.25.0-GA\javassist-3.25.0-GA.jar;D:\resource\java\maven\repository\net\bytebuddy\byte-buddy\1.12.16\byte-buddy-1.12.16.jar;D:\resource\java\maven\repository\net\bytebuddy\byte-buddy-agent\1.12.16\byte-buddy-agent-1.12.16.jar;D:\resource\java\maven\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;D:\resource\java\maven\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;D:\resource\java\maven\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;D:\resource\java\maven\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;D:\resource\java\maven\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;D:\resource\java\maven\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;D:\resource\java\maven\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;D:\resource\java\maven\repository\org\junit-pioneer\junit-pioneer\1.5.0\junit-pioneer-1.5.0.jar;D:\resource\java\maven\repository\org\junit\platform\junit-platform-launcher\1.7.2\junit-platform-launcher-1.7.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\pc"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="D:\ProgramFiles\Java\jdk1.8.0_281\jre"/>
+    <property name="basedir" value="D:\work\workspace\idea\mybatis_demo"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\pc\AppData\Local\Temp\surefire7771720277532636247\surefirebooter7650905831843396682.jar;D:\\resource\\java\\maven\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.8\\org.jacoco.agent-0.8.8-runtime.jar"/>
+    <property name="sun.boot.class.path" value="D:\ProgramFiles\Java\jdk1.8.0_281\jre\lib\resources.jar;D:\ProgramFiles\Java\jdk1.8.0_281\jre\lib\rt.jar;D:\ProgramFiles\Java\jdk1.8.0_281\jre\lib\sunrsasign.jar;D:\ProgramFiles\Java\jdk1.8.0_281\jre\lib\jsse.jar;D:\ProgramFiles\Java\jdk1.8.0_281\jre\lib\jce.jar;D:\ProgramFiles\Java\jdk1.8.0_281\jre\lib\charsets.jar;D:\ProgramFiles\Java\jdk1.8.0_281\jre\lib\jfr.jar;D:\ProgramFiles\Java\jdk1.8.0_281\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_281-b09"/>
+    <property name="user.name" value="pc"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="D:\ProgramFiles\Java\jdk1.8.0_281\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\resource\java\maven\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\pc\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2023.3.4"/>
+    <property name="java.version" value="1.8.0_281"/>
+    <property name="user.dir" value="D:\work\workspace\idea\mybatis_demo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\ProgramFiles\Java\jdk1.8.0_281\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\li\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\li\AppData\Local\Programs\Python\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\ProgramFiles\VMware\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\ProgramFiles\Java\jdk1.8.0_281\bin;D:\ProgramFiles\node;D:\resouce\node\node_global;D:\resouce\yarn\node_global;D:\resouce\yarn\node_global\bin;D:\resouce\node\node_global\bin;D:\ProgramFiles\xftp\;D:\ProgramFiles\Git\cmd;D:\resource\java\apache-maven-3.8.4\bin;D:\resource\rust\.rustup;D:\resource\rust\.cargo;D:\resource\rust\.cargobin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\ProgramFiles\scala2.12.18\bin;C:\Users\pc/.local/bin;C:\Users\pc\AppData\Local\Microsoft\WindowsApps;C:\Users\pc\go\bin;D:\ProgramFiles\Hyper\resources\bin;D:\ProgramFiles\Git\cmd;D:\ProgramFiles\Git\mingw64\bin;D:\ProgramFiles\Git\usr\bin;D:\ProgramFiles\IntelliJ IDEA 2022.2.1\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.281-b09"/>
+    <property name="java.ext.dirs" value="D:\ProgramFiles\Java\jdk1.8.0_281\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="test" classname="io.leaderli.mybatis.demo.CityMapperTest" time="0.188">
+    <error message="&#10;### Error building SqlSession.&#10;### The error may exist in io/leaderli/mybatis/demo/CityMapper.xml&#10;### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.io.IOException: Could not find resource io/leaderli/mybatis/demo/CityMapper.xml" type="org.apache.ibatis.exceptions.PersistenceException">org.apache.ibatis.exceptions.PersistenceException: 
+
+### Error building SqlSession.
+### The error may exist in io/leaderli/mybatis/demo/CityMapper.xml
+### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.io.IOException: Could not find resource io/leaderli/mybatis/demo/CityMapper.xml
+	at io.leaderli.mybatis.demo.CityMapperTest.test(CityMapperTest.java:20)
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.io.IOException: Could not find resource io/leaderli/mybatis/demo/CityMapper.xml
+	at io.leaderli.mybatis.demo.CityMapperTest.test(CityMapperTest.java:20)
+Caused by: java.io.IOException: Could not find resource io/leaderli/mybatis/demo/CityMapper.xml
+	at io.leaderli.mybatis.demo.CityMapperTest.test(CityMapperTest.java:20)
+</error>
+  </testcase>
+</testsuite>

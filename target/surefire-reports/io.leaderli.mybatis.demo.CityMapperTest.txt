@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: io.leaderli.mybatis.demo.CityMapperTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.195 s <<< FAILURE! - in io.leaderli.mybatis.demo.CityMapperTest
+test  Time elapsed: 0.188 s  <<< ERROR!
+org.apache.ibatis.exceptions.PersistenceException: 
+
+### Error building SqlSession.
+### The error may exist in io/leaderli/mybatis/demo/CityMapper.xml
+### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.io.IOException: Could not find resource io/leaderli/mybatis/demo/CityMapper.xml
+	at io.leaderli.mybatis.demo.CityMapperTest.test(CityMapperTest.java:20)
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.io.IOException: Could not find resource io/leaderli/mybatis/demo/CityMapper.xml
+	at io.leaderli.mybatis.demo.CityMapperTest.test(CityMapperTest.java:20)
+Caused by: java.io.IOException: Could not find resource io/leaderli/mybatis/demo/CityMapper.xml
+	at io.leaderli.mybatis.demo.CityMapperTest.test(CityMapperTest.java:20)
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="io.leaderli.mybatis.demo.BlogMapper">
+    <select id="selectBlog" resultType="map">
+        select * from blog
+    </select>
+    <insert id="insertBlog">
+        INSERT INTO blog (id, author_id, title) VALUES  (#{id}, #{author_id}, #{title})
+
+    </insert>
+</mapper>
